@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infogenon — The Universe of Free Consciousness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #0b0f2b, #10152f);
+      color: white;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      background: transparent;
+      position: absolute;
+      width: 100%;
+      z-index: 10;
+    }
+    nav a {
+      color: #ffffffcc;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 0 2rem;
+      background: url('your-cosmic-background.jpg') center/cover no-repeat;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 600;
+      background: linear-gradient(90deg, #58e1ff, #d9a4ff, #ffde87);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 700px;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .hero-buttons {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero-buttons a {
+      background: #5b2fff;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+    .hero-buttons a:hover {
+      background: #784fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>Infogenon</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Contribute</a>
+      <a href="#">API</a>
+      <a href="#">Explore</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Infogenon</h1>
+    <p>A universe of free thought, creativity, and consciousness.  
+       Share your ideas, poems, code, or dreams —  
+       and connect through pure, uninhibited expression.</p>
+    <div class="hero-buttons">
+      <a href="#">🌟 Share a Thought</a>
+      <a href="#">🔍 Browse the Stream</a>
+    </div>
+  </section>
+</body>
+</html>
