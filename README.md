@@ -87,9 +87,14 @@ infogenon-portal/
 │ ├── images/ ← Visuals for the eepos and science diagrams
 │ └── audio/ ← Planned voice readings and music
 ├── Omnirun game/           # Simulation
+├── papers/
+│   ├── infogenon-theory.pgf
+│   ├── symbiotic-consciousness.pdf
+│   └── README.md
 ├── index.html ← Interactive poetic gateway (in progress)
-├── LICENSE ← Open-access, non-restrictive license
-└── PORTAL_UI/              # Interactive frontend	
+├── LICENSE ← Open-access, non-restrictive license,
+├── PILVESÜSTEEM ← Open-access, non-restrictive licens, Free to use
+└── PORTAL_UI/              # Interactive frontend
 
 ---
 
